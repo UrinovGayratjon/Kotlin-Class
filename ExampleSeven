@@ -1,0 +1,16 @@
+class Example {
+    var a = "Init"
+
+    constructor() {
+        print(a)
+    }
+
+    init {
+        println(a)
+        a = "INIT"
+    }
+}
+fun main() {
+    val example = Example()
+
+}
